@@ -1,0 +1,18 @@
+<web-app>
+ <servlet>
+  <servlet-name>SendRedirectEx</servlet-name>
+  <servlet-class>Servlet1</servlet-class>
+ </servlet>
+ <servlet-mapping>
+	<servlet-name>SendRedirectEx</servlet-name>
+	<url-pattern>/s1</url-pattern>
+ </servlet-mapping>
+ <servlet>
+  <servlet-name>SendRedirectEx1</servlet-name>
+  <servlet-class>Servlet2</servlet-class>
+ </servlet>
+ <servlet-mapping>
+	<servlet-name>SendRedirectEx1</servlet-name>
+	<url-pattern>/s2</url-pattern>
+ </servlet-mapping>
+</web-app> 
